@@ -1,0 +1,36 @@
+,,,scatter plots,boxplots,barplots (countplot),histogram,univariate
+,SK_ID_CURR,,,,,,
+application_data,TARGET,,,,,,
+application_data,NAME_CONTRACT_TYPE,,,,contract type as x and income type as hue,,with relation to target 
+application_data,CODE_GENDER,,,code gender as x and income type as hue and income total as y ,,,with relation to target 
+application_data,FLAG_OWN_CAR,,,,,,
+application_data,FLAG_OWN_REALTY,,,,,,with relation to target
+application_data,CNT_CHILDREN,,,cnt of children as x and income total as y,,,
+application_data,AMT_INCOME_TOTAL,,,,,univariate( just it ),
+application_data,AMT_CREDIT,,with amt of annuity and amt income total,,,,
+application_data,AMT_ANNUITY,,,,,,
+application_data,NAME_INCOME_TYPE,,,,,,with relation to target
+application_data,NAME_EDUCATION_TYPE,,,with education type as x and y as income total,,,with relation to target
+application_data,NAME_FAMILY_STATUS,,,with family as x and amt credt as y ,,,with relation to target
+application_data,NAME_HOUSING_TYPE,,,,,,
+,REGION_POPULATION_RELATIVE,,,,,,
+,DAYS_BIRTH,,,,,,
+,DAYS_EMPLOYED,,,,,,
+,DAYS_REGISTRATION,,,,,,
+,DAYS_ID_PUBLISH,,,,,,
+application_data,WEEKDAY_APPR_PROCESS_START,,,,,,
+application_data,REG_REGION_NOT_LIVE_REGION,,,,,,
+application_data,REG_REGION_NOT_WORK_REGION,,,,,,
+application_data,LIVE_REGION_NOT_WORK_REGION,,,,,,
+application_data,REG_CITY_NOT_LIVE_CITY,,,,,,
+application_data,REG_CITY_NOT_WORK_CITY,,,,,,
+application_data,LIVE_CITY_NOT_WORK_CITY,,,,,,
+application_data,ORGANIZATION_TYPE,,,,,,with relation to target
+,INCOME_GROUP,,,,,,
+,AGE,,,,,,
+,AGE_GROUP,,,,,,
+,,,,,,,
+previous_application.csv,NAME_CONTRACT_TYPE,,,,,,
+previous_application.csv,AMT_ANNUITY,,with amt credit of previous appl and parellely amt annuity and amt credit for current appllication,,,,
+,AMT_CREDIT,,,,,,
+,WEEKDAY_APPR_PROCESS_START,,,,,,
